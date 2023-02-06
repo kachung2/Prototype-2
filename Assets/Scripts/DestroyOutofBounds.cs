@@ -18,12 +18,11 @@ public class DestroyOutofBounds : MonoBehaviour
         if (transform.position.z > topBound)
         {
             Destroy(gameObject);
-            else if (transform.position.z < lowerBound)
-            {
-                Destroy(gameObject);
-            }
+        } else if (transform.position.z < lowerBound)
+        {
+            Destroy(gameObject);
         }
-
-        }
+        
+        
     }
 }
