@@ -435,7 +435,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -725,7 +725,7 @@ MonoBehaviour:
   horizontalInput: 0
   speed: 10
   xRange: 10
-  projectilePrefab: {fileID: 1887814628}
+  projectilePrefab: {fileID: 8397265623776339094, guid: 04bee14a545b04f12ad1140f93ebbfa5, type: 3}
 --- !u!1 &1396851996
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,7 +759,6 @@ MonoBehaviour:
   - {fileID: 321015022398612213, guid: 11fa962da45cf498693b2596b086c002, type: 3}
   - {fileID: 2911343780675196361, guid: 3e3974fa30ade4c719361c16a4ba5533, type: 3}
   - {fileID: 5454060076657259826, guid: a28cc13833fcf4311983d4e4e31a5a29, type: 3}
-  animalIndex: 1
 --- !u!4 &1396851998
 Transform:
   m_ObjectHideFlags: 0
@@ -972,11 +971,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72d1e1ec46e639c47a81658b0d9e230e, type: 3}
---- !u!1 &1887814628 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8397265623776339094, guid: 04bee14a545b04f12ad1140f93ebbfa5, type: 3}
-  m_PrefabInstance: {fileID: 8397265625110308722}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8397265625110308722
 PrefabInstance:
   m_ObjectHideFlags: 0
